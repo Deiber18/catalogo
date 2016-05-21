@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header,nav,section,aside,footer,article{
+	display: block;
+}
+body{
+	text-align: center;
+	background: ;
+	
+	
+}
+#agrupar{
+	text-align: center;
+	margin: 15px auto;
+	width: 1000px;
+}
+#cabecera{
+	background: gray;
+	border: 1px solid black;
+	padding: 0px;
+
+}
+#image{
+	width: 520px;
+}
+#menu{ 
+    background: black;
+	padding:5px 10px;
+	height: 60px;
+	
+}
+#menu ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu li{
+	margin: ;
+	padding: ; 
+	display: inline-block;
+	
+}
+#menu ul li a{
+	background: black;
+    width: 120px;
+    height: 50px;
+    margin-left: 1px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+	
+}
+#menu ul li a:hover{
+	background: white;
+	color: black;
+}
+li{
+	display: inline-block;
+}
+#seccion{
+	border: 1px solid black;
+	width: 905px;
+	height: *;
+	margin: 15px;
+	float: left;
+	background: gray;
+	padding: 30px;
+
+}
+
+#pie{
+	clear: both;
+    text-align: center;
+    padding: 20px;
+	border-top: 2px solid black;
+	margin: 15px;
+}
+#form input{
+	padding: 4px;
+	margin: 10px;
+
+}
+#formu{
+	float: left;
+}

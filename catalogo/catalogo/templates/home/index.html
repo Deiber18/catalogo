@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	Pagina Sobre Nosotros
+{% endblock %}
+
+{% block content %}
+	<h1>Bienvenidos esta es la pagina Principal</h1>
+	{% if user.get_profile.photo %}
+		<img src="/media/{{ user.get_profile.photo }}" width="100px" heigth = "100px"/>
+	{% endif %}
+	{% if user.get_profile.telefono %}
+		<p>Numero Telefonico: {{ user.get_profile.telefono }}</p>
+	{% endif %}
+	<br>
+	<center>
+	<video id="Movie" src="/media/videos/video.mp4" controls height = "220px" width = "350px"></video>
+	<video id="Movie" src="/media/videos/video2.mp4" controls height = "250px" width = "300px"></video>
+	</center>
+	
+{% endblock %}
